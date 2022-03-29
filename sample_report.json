@@ -1,0 +1,246 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "verify-the-login-page-of-the-xyz-bank;verify-the-bank-manager-login",
+        "keyword": "Scenario Outline",
+        "line": 5,
+        "name": "Verify the Bank Manager login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User shoud open the bank using valid url",
+            "match": {
+              "location": "features\\stepdefinition.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1067000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 4,
+            "name": "User should validate the application",
+            "match": {
+              "location": "features\\stepdefinition.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2115000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user should click on the Bank Manager Login",
+            "match": {
+              "location": "features\\stepdefinition.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2127000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user should click on Add customer",
+            "match": {
+              "location": "features\\stepdefinition.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4133000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Enter the userfname \"Raju\"",
+            "match": {
+              "location": "features\\stepdefinition.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2192000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Enter the userlastname \"Yadav\"",
+            "match": {
+              "location": "features\\stepdefinition.ts:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3180000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Enter the userpostcode \"455676\"",
+            "match": {
+              "location": "features\\stepdefinition.ts:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3189000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "user should  click on Add customer Button",
+            "match": {
+              "location": "features\\stepdefinition.ts:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6216000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user shoud go to Home",
+            "match": {
+              "location": "features\\stepdefinition.ts:85"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3155000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "verify-the-login-page-of-the-xyz-bank;verify-customer-login",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Verify Customer Login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User shoud open the bank using valid url",
+            "match": {
+              "location": "features\\stepdefinition.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 324000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 4,
+            "name": "User should validate the application",
+            "match": {
+              "location": "features\\stepdefinition.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2277000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "user should click on customer login",
+            "match": {
+              "location": "features\\stepdefinition.ts:93"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4114000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "user should click on yourname",
+            "match": {
+              "location": "features\\stepdefinition.ts:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2115000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "user shoud select the name",
+            "match": {
+              "location": "features\\stepdefinition.ts:109"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2126000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "user should login successfull",
+            "match": {
+              "location": "features\\stepdefinition.ts:124"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 112000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "verify-the-login-page-of-the-xyz-bank",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Verify the login page of the xyz bank",
+    "tags": [],
+    "uri": "features\\Login.feature"
+  }
+]
